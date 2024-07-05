@@ -18,17 +18,17 @@ gitcreds_set()
 #opt1
 use_github()
 
-#opt2
+#opt2 这种更好 第一种容易出现“本地Git分支没有跟踪GitHub分支!”问题
 #The most straightforward way to use RStudio and GitHub together is 
 #to create a repo on GitHub first. Create the repo, then when you start 
 #a new project in RStudio, use the version control option, enter your 
 #repo URL, and you're good to go.
-
+# 注意 出现错误时，将url中的https改写为http，
 
 #General Workflow
 
-#Push
 
+#Greyed out push button
 
 
 
