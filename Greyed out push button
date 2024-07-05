@@ -1,0 +1,24 @@
+#Greyed out push button
+#First, let’s check your local repository (Git) is connected to a remote one (GitHub).
+在terminal中输入：git remote -v
+
+#origin  http://github.com/YYY677/wk4.git (fetch)
+#origin  http://github.com/YYY677/wk4.git (push)
+
+修改：git remote add origin https://github.com/andrewmaclachlanc/myrepo.git
+
+查询本地Git分支是否跟踪GitHub分支
+git branch -vv
+#* main 7b4db1e [origin/main: ahead 1] Initial commit
+
+
+If you can’t see origin/main then set it using the following code. 
+
+git branch -M main
+git push -u origin main
+
+
+If you need to change the URL of your GitHub …. so where you push your local Git to the GitHub account (changing this), perhaps you have made a new GitHub repo…
+
+git remote set-url origin [enter your cloned URL from GitHUB here]```
+
