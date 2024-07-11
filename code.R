@@ -13,6 +13,7 @@ create_github_token()
 library(gitcreds)
 gitcreds_set()
 
+gitcreds_get()
 
 #How to Connect RStudio Projects with GitHub Repositories
 #opt1
@@ -24,6 +25,9 @@ use_github()
 #a new project in RStudio, use the version control option, enter your 
 #repo URL, and you're good to go.
 # 注意 出现错误时，将url中的https改写为http，
+
+#查询远程库
+usethis::git_remotes()
 
 #General Workflow
 
